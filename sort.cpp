@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int sort(int arr[],int arr_size){
+void sort(int arr[],int arr_size){
 
     for (int i=0;i<arr_size;i++){
         if (arr[i]>arr[i+1]){
@@ -9,20 +9,9 @@ int sort(int arr[],int arr_size){
             arr[i]=arr[i+1];
             arr[i]=temp;
 
-
-
-
-
         }
-
-
-
-
     }
-
-
-
-    return *arr;
+   
 }
 
 int main(){
