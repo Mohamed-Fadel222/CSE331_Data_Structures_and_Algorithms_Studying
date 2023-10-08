@@ -21,7 +21,6 @@ int addtwonumbers(int l1[],int l2[]){
 }
 
 
-
 int main(){
     int l1[] = {2,4,3};
     int l2[] = {5,6,4};
